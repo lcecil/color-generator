@@ -1,0 +1,19 @@
+{
+  "name": "color-generator",
+  "version": "1.0.0",
+  "description": "A web application that lets users generate different colors to create palettes and save them to a profile.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcecil/color-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcecil/color-generator/issues"
+  },
+  "homepage": "https://github.com/lcecil/color-generator#readme"
+}
