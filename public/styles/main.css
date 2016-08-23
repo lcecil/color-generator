@@ -1,3 +1,64 @@
-.col {
+/* General Styles */
+body {
+  margin: 0;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.col-1 {
+  float: left;
   width: 20%;
+  height: 500px;
+}
+
+/* Typography */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Header/Navigation */
+header {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#main-nav li {
+  float: right;
+}
+
+#main-nav li a {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+/* Color Tiles */
+.color-one {
+  background-color: #3F7191;
+}
+
+.color-two {
+  background-color: #40C9A2;
+}
+
+.color-three {
+  background-color: #DB504A;
+}
+
+.color-four {
+  background-color: #EDAE49;
+}
+
+.color-five {
+  background-color: #249BE5;
 }
