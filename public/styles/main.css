@@ -14,15 +14,31 @@ body {
   height: 500px;
 }
 
+.clear {
+  clear: both;
+}
 /* Typography */
 body {
   font-family: 'Lato', sans-serif;
+  color: #505050;
 }
 
 /* Header/Navigation */
 header {
   background-color: #f2f2f2;
   border-bottom: 1px solid #ccc;
+}
+
+#logo a {
+  display: block;
+  float: left;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #505050;
+}
+
+#main-nav {
+  float: right;
 }
 
 #main-nav ul {
@@ -33,13 +49,14 @@ header {
 }
 
 #main-nav li {
-  float: right;
+  float: left;
 }
 
 #main-nav li a {
   display: block;
   padding: 15px 10px;
   text-decoration: none;
+  color: #505050;
 }
 
 /* Color Tiles */
